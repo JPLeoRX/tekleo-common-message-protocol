@@ -1,8 +1,8 @@
 from pydantic import BaseModel
-from simplestr import gen_str_repr
+from simplestr import gen_str_repr_eq
 
 
-@gen_str_repr
+@gen_str_repr_eq
 class ImageBase64Input(BaseModel):
     image_base64: str
 

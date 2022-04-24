@@ -24,6 +24,7 @@ setup_args = dict(
 install_requires = [
     'pydantic',
     'simplestr',
+    'Pillow',
 ]
 
 

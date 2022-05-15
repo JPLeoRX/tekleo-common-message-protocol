@@ -6,6 +6,7 @@ from .rectangle_pixel import RectanglePixel
 from .rectangle_relative import RectangleRelative
 
 from .object_detection.od_labeled_box import OdLabeledBox
+from .object_detection.od_output import OdOutput
 from .object_detection.od_prediction import OdPrediction
 from .object_detection.od_sample import OdSample
 
@@ -20,6 +21,7 @@ __all__ = [
 
     # Object detection
     OdLabeledBox,
+    OdOutput,
     OdPrediction,
     OdSample,
 ]

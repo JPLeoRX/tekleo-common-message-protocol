@@ -1,5 +1,5 @@
-from .image_base64_input import ImageBase64Input
-from .image_url_input import ImageUrlInput
+from .image_base64 import ImageBase64
+from .image_url import ImageUrl
 from .ping_output import PingOutput
 from .point_pixel import PointPixel
 from .rectangle_pixel import RectanglePixel
@@ -12,8 +12,8 @@ from .object_detection.od_sample import OdSample
 
 __all__ = [
     # General
-    ImageBase64Input,
-    ImageUrlInput,
+    ImageBase64,
+    ImageUrl,
     PingOutput,
     PointPixel,
     RectanglePixel,

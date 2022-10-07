@@ -4,6 +4,7 @@ from .ping_output import PingOutput
 from .point_pixel import PointPixel
 from .rectangle_pixel import RectanglePixel
 from .rectangle_relative import RectangleRelative
+from .text import Text
 
 from .nlp.nlp_named_entity import NlpNamedEntity
 
@@ -20,6 +21,7 @@ __all__ = [
     PointPixel,
     RectanglePixel,
     RectangleRelative,
+    Text,
 
     # NLP
     NlpNamedEntity,

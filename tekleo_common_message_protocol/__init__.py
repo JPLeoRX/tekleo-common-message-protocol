@@ -5,6 +5,8 @@ from .point_pixel import PointPixel
 from .rectangle_pixel import RectanglePixel
 from .rectangle_relative import RectangleRelative
 
+from .nlp.nlp_named_entity import NlpNamedEntity
+
 from .object_detection.od_labeled_box import OdLabeledBox
 from .object_detection.od_output import OdOutput
 from .object_detection.od_prediction import OdPrediction
@@ -18,6 +20,9 @@ __all__ = [
     PointPixel,
     RectanglePixel,
     RectangleRelative,
+
+    # NLP
+    NlpNamedEntity,
 
     # Object detection
     OdLabeledBox,

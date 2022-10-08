@@ -7,7 +7,7 @@ with open("README.md", "r") as readme_file:
 
 setup_args = dict(
     name='tekleo-common-message-protocol',
-    version='0.0.0.3',
+    version='0.0.0.4',
     description="",
     keywords=[],
     long_description=readme_text,

@@ -20,3 +20,6 @@ class RectangleRelative(BaseModel):
         if not (0.0 <= h <= 1.0):
             raise RuntimeError("H value is not in [0.0, 1.0] range")
         super().__init__(x=x, y=y, w=w, h=h)
+
+    def get_area(self) -> float:
+        return self.w * self.h

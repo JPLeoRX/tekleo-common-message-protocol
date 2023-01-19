@@ -14,6 +14,8 @@ from .object_detection.od_output import OdOutput
 from .object_detection.od_prediction import OdPrediction
 from .object_detection.od_sample import OdSample
 
+from .facial_features.facial_prediction import FacialPrediction
+
 __all__ = [
     # General
     ImageBase64,
@@ -33,4 +35,7 @@ __all__ = [
     OdOutput,
     OdPrediction,
     OdSample,
+
+    # Facial
+    FacialPrediction,
 ]
